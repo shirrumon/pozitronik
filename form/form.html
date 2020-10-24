@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="form.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="form col-9 col-md-3" id="border">
+          <div class="form-wrapper text-center">
+            <form>
+              <div class="form-group name-form">
+                <label>Имя*</label>
+                <input type="name" class="form-control" id="inputName">
+                <small id="nameHelp" class="form-text text-muted">Hапишите свое имя</small>
+                <button type="button" class="btn btn-primary name-next-button mar-2" id="name-next-button">Дальше</button>
+              </div>
+
+              <div class="form-group email-form" id="email-block">
+                <label>Электронная почта*</label>
+                <input type="email" class="form-control" id="inputEmail">
+                <small id="emailHelp" class="form-text text-muted">Введите ваш e-mail</small>
+                <button type="button" class="btn btn-primary" id="email-next-button">Дальше</button>
+              </div>
+
+              <div class="form-group phone-form" id="phone-block">
+                <label>Телефон*</label>
+                <input type="phone" class="form-control" id="inputPhone">
+                <small id="phoneHelp" class="form-text text-muted">Введите ваш номер телефона</small>
+                <button type="button" class="btn btn-primary" id="phone-next-button">Дальше</button>
+              </div>
+
+            <div class="form-group content-form" id="content-block">
+              <label>Услуга</label>
+              <textarea name="content" class="form-control" rows="4" cols="30"></textarea>
+              <small id="emailHelp" class="form-text text-muted">Опишите вашу проблему или услугу которую вы хотите</small>
+              <button type="submit" class="btn btn-primary mar-2">Отправить</button>
+            </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-4 bb">
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="form.js"></script>
+  </body>
+</html>

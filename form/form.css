@@ -1,0 +1,213 @@
+.mar-2
+{
+  margin: 2% 0% 1% 0%;
+}
+
+.form
+{
+  margin: 5%;
+  padding: 0.5%;
+  background: linear-gradient(to right top, blue -60%, white 60%);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4%;
+  border-color: #d6c1c1;
+  box-shadow: 0 0 12px rgba(214, 193, 193, 1);
+}
+
+.mes
+{
+  display: none;
+}
+
+.form-animation #border
+{
+  animation-name: form1;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+  animation-fill-mode: forwards;
+  margin: 2%;
+  padding: 0.5%;
+  background: linear-gradient(to right top, blue -60%, white 60%);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4%;
+  border-color: #d6c1c1;
+  box-shadow: 0 0 12px rgba(214, 193, 193, 1);
+}
+
+.form-animation2 #border
+{
+  animation-name: form2;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+  animation-fill-mode: forwards;
+  margin: 2%;
+  padding: 0.5%;
+  background: linear-gradient(to right top, blue -60%, white 60%);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4%;
+  border-color: #d6c1c1;
+  box-shadow: 0 0 12px rgba(214, 193, 193, 1);
+}
+
+.form-wrapper
+{
+  background: #fff;
+  padding: 3%;
+  border-radius: 4%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d6c1c1;
+  box-shadow: inset 0 0 12px rgba(214, 193, 193, 1);
+}
+.name-form
+{
+
+}
+
+.email-form
+{
+  display: none;
+}
+
+.phone-form
+{
+  display: none;
+}
+
+.content-form
+{
+  display: none;
+}
+
+.check-form
+{
+  display: none;
+}
+
+@keyframes form1{
+  0%
+  {
+    background: linear-gradient(to right top, blue -60%, white 60%);
+  }
+
+  10%
+  {
+    background: linear-gradient(to right top, blue -50%, white 60%);
+  }
+
+  20%
+  {
+    background: linear-gradient(to right top, blue -40%, white 60%);
+  }
+
+  30%
+  {
+    background: linear-gradient(to right top, blue -30%, white 60%);
+  }
+
+  40%
+  {
+    background: linear-gradient(to right top, blue -20%, white 60%);
+  }
+
+  50%
+  {
+    background: linear-gradient(to right top, blue -10%, white 60%);
+  }
+
+  60%
+  {
+    background: linear-gradient(to right top, blue 0%, white 60%);
+  }
+
+  70%
+  {
+    background: linear-gradient(to right top, blue 10%, white 60%);
+  }
+
+  80%
+  {
+    background: linear-gradient(to right top, blue 10%, white 60%);
+  }
+
+  90%
+  {
+    background: linear-gradient(to right top, blue 10%, white 60%);
+  }
+
+  100%
+  {
+    background: linear-gradient(to right top, blue 10%, white 60%);
+  }
+}
+
+@keyframes form2{
+  0%
+  {
+    background: linear-gradient(to right top, blue 10%, white 60%);
+    box-shadow: 0 0 12px rgba(214, 193, 193, 1);
+  }
+
+  10%
+  {
+    background: linear-gradient(to right top, blue 14%, white 60%);
+    box-shadow: 0 0 14px rgba(214, 193, 193, 1);
+  }
+
+  20%
+  {
+    background: linear-gradient(to right top, blue 18%, white 60%);
+    box-shadow: 0 0 16px rgba(214, 193, 193, 1);
+  }
+
+  30%
+  {
+    background: linear-gradient(to right top, blue 22%, white 60%);
+    box-shadow: 0 0 18px rgba(214, 193, 193, 1);
+  }
+
+  40%
+  {
+    background: linear-gradient(to right top, blue 24%, white 60%);
+    box-shadow: 0 0 20px rgba(214, 193, 193, 1);
+  }
+
+  50%
+  {
+    background: linear-gradient(to right top, blue 28%, white 60%);
+    box-shadow: 0 0 20px rgba(214, 193, 193, 1);
+  }
+
+  60%
+  {
+    background: linear-gradient(to right top, blue 32, white 60%);
+    box-shadow: 0 0 20px rgba(214, 193, 193, 1);
+  }
+
+  70%
+  {
+    background: linear-gradient(to right top, blue 36%, white 60%);
+    box-shadow: 0 0 20px rgba(214, 193, 193, 1);
+  }
+
+  80%
+  {
+    background: linear-gradient(to right top, blue 38%, white 60%);
+    box-shadow: 0 0 22px rgba(214, 193, 193, 1);
+  }
+
+  90%
+  {
+    background: linear-gradient(to right top, blue 42%, white 60%);
+    box-shadow: 0 0 24px rgba(214, 193, 193, 1);
+  }
+
+  100%
+  {
+    background: linear-gradient(to right top, blue 46%, white 60%);
+    box-shadow: 0 0 26px rgba(214, 193, 193, 1);
+  }
+}
